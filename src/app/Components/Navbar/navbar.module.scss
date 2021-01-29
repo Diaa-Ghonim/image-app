@@ -1,0 +1,41 @@
+.navbar-wrapper {}
+
+.navbar-container {
+  padding: 10px;
+  background-color: #106d7b;
+  // background-color: #054a54;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.navbar-fixed {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  background-color: inherit;
+}
+
+.navbar-content {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
