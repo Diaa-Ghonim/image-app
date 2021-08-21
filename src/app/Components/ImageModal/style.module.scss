@@ -22,15 +22,12 @@
       cursor: pointer;
     }
 
-
-
     .go-button {
       right: -28px;
     }
 
     .back-button {
-      left: -28px;
-
+      left: -32px;
     }
 
     .image {
@@ -61,7 +58,7 @@
   }
 }
 
-@media (max-width:790px) {
+@media (max-width: 790px) {
   .image-modal-wrapper {
     flex-direction: column;
     width: auto;
